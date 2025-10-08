@@ -176,7 +176,7 @@ Bot_cmds = {
 
 #Don't Change Anything Here
 
-if MULTIPLE_DB == True:
+if MULTIPLE_DB == False:
     DATABASE_URI = DATABASE_URI
     DATABASE_URI2 = DATABASE_URI
 else:
